@@ -1,0 +1,4 @@
+The optimum value I found to be working for the smoothing parameter was = 0.1
+
+A lower value (as compared to the size of vocabulary) is good. This is because the purpose of smoothing is to avoid zero probabilities. A lower value still attains this objective, without skewing the belief.
+On the other hand, a higher value (like smoothing = 1000) will skew the belief away from the more likely class, and reduce overall accuracy.

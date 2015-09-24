@@ -1,0 +1,5 @@
+The words in this list were completely different as compared to the words in the "stop-words" list.
+Also, the words for conservative and loberal were complately different from each other. 
+
+This was expected as the metric (using which we are sorting the list) garuntess that words which are uniquely correlated to the class appear on the top.
+They can be though of as "representative" words, which depict the class.

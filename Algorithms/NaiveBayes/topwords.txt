@@ -1,0 +1,4 @@
+The two lists are not at all different. They conatin overlapping words. Thse common words are even the the same positions in the list (with most frequent occuring at the top).
+
+They are "Stop-words". These are words like "the", "a", "there", "is", "for", "i". They are most frequently used in english to support the anguage construct.
+This is why they occur so often in written english documents.

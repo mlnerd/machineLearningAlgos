@@ -1,0 +1,9 @@
+I varied "N", which is number of stop-words excluded from the vocabulary. 
+
+I found that Naive-Bayes classifier did not improve on accuracy for lower values of "N". the classifier started improving only on very high values of "N", like N=1000.
+On the other hand, the performance of algorithm started decreasing when N started approaching a vocabulary size. 
+
+This could be because most of the words in vocabulary are not descriptive of the class (lib/con) and are stop-words. I know that distribution of word frequencies in english language follows  the "power-law".
+It means that most frequent words occur exponentially more than fewer words. 
+
+The likely value of "N" (not exact, but just to show the magnitude) I found to be working in our case (for most train/tests) was N=1000 
